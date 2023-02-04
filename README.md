@@ -1,4 +1,31 @@
-# Dashboard
+# nx-bug-demo-2023-02-04
+
+This is a demo app reproducing an Nx bug. The app was created like this:
+
+```
+➜  CODE npx create-nx-workspace@latest
+
+ >  NX   Let's create a new workspace [https://nx.dev/getting-started/intro]
+
+✔ Choose what to create                 · angular
+✔ Application name                      · dashboard
+✔ Default stylesheet format             · scss
+✔ Enable distributed caching to make your CI faster · Yes
+
+ >  NX   Nx is creating your v15.6.3 workspace.
+
+   To make sure the command works reliably in all environments, and that the preset is applied correctly,
+   Nx will run "npm install" several times. Please wait.
+
+✔ Installing dependencies with npm
+✔ Nx has successfully created the workspace: dashboard.
+✔ NxCloud has been set up successfully
+
+ >  NX   Successfully initialized git.
+
+```
+
+---
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
